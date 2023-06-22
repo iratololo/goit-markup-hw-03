@@ -76,6 +76,7 @@ ol {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 
@@ -95,7 +96,6 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -380,6 +380,7 @@ img {
     color: var(--iris);
     background-color: var(--cloud);
     padding: 12px 24px;
+    border: 1px solid var(--cornflower);
 }
 
 .filter-btn:hover,
@@ -387,6 +388,7 @@ img {
  {
     color: var(--white);
     background-color: var(--ocean);
+    border: 1px solid transparent;
 }
 
 .content {
