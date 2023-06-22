@@ -1,0 +1,204 @@
+/*____________________ЗМІННІ___________________________*/
+
+:root {
+
+    /*____________________COLOR___________________________*/
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navyBlue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --lightSlate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navyBlueModal: #2e2f4266;
+    --grey: #2e2f42b3;
+    --white: #ffffff;
+    --dairy: #FCFCFC;
+
+/*____________________FONTS___________________________*/
+
+    --logoFont: "Raleway", sans-serif;
+}
+
+
+/*____________________ЗАГАЛЬНІ НАЛАШТУВАННЯ___________________________*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--white);
+    color: var(--slate);
+}
+
+/* ul {
+    list-style-type: none;
+} */
+
+.list {
+    list-style-type: none;
+}
+
+/* a {
+    text-decoration: none;
+    color: currentColor;
+    font-style: normal;
+} */
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+/*____________________HEADER___________________________*/
+
+.logo {
+    font-family: var(--logoFont);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--iris);
+    letter-spacing: 0.03em;
+}
+
+.logo-decor {
+    color: var(--navyBlue);
+}
+
+.menu-link {
+    font-weight: 500;
+    color: var(--navyBlue);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus 
+{
+    text-decoration: underline;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--ocean);
+}
+
+.contacts-link {
+    color: var(--slate);
+}
+
+
+/*____________________HERO___________________________*/
+
+.hero {
+    background-color: var(--navyBlue);
+    text-align: center;
+}
+
+.main-title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button-main {
+    color: var(--white);
+    background-color: var(--iris);
+}
+
+.button-main:hover,
+.button-main:focus {
+    background-color: var(--ocean);
+}
+
+
+/*____________________СПІЛЬНІ НАЛАШТУВАННЯ___________________________*/
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navyBlue);
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navyBlue);
+    letter-spacing: 0.02em;
+}
+
+/* .text {
+    color: var(--slate);
+} */
+
+
+/*____________________TEAM___________________________*/
+
+.team {
+    background-color: var(--cloud);
+    text-align: center;
+}
+
+.team-item {
+    background-color: var(--white);
+}
+
+/*____________________FOOTER___________________________*/
+
+.footer {
+    background-color: var(--navyBlue);
+}
+
+.footer-text {
+    color: var(--cloud);
+}
+
+.footer .logo-decor {
+    color: var(--cloud);
+}
+
+
+/*____________________FILTER / PORTFOLIO___________________________*/
+
+.filter-btn {
+    color: var(--iris);
+    background-color: var(--cloud);
+}
+
+.filter-btn:hover,
+.filter-btn:focus
+ {
+    color: var(--white);
+    background-color: var(--ocean);
+}
